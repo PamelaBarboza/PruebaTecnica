@@ -1,0 +1,8 @@
+.navBar{
+    width: 100%;
+    max-width: 1140px;
+    display: block;
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    height: 70px;
+}
