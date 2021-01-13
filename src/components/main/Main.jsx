@@ -1,9 +1,15 @@
 import React from 'react';
+import "../main/main.css"
+import ImgHead from "../../img/head-bg-mb@2x.jpg"
+
+
 
 const Main = () => {
   return (
-    <div>
-      aqui va el main
+    <div className="container">
+      <div className="containerImgHead">
+        <img src={ImgHead} alt="header" />
+      </div>
     </div>
   );
 }

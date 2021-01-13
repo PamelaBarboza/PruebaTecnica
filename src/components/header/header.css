@@ -1,0 +1,64 @@
+@import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+
+.containerChicaLogo {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.imgChica {
+  width: 150px;
+}
+
+.imgChica img {
+  display: block;
+  width: 89%;
+  box-sizing: border-box;
+}
+
+.logoElectroMov svg {
+  width: 222px;
+  margin-left: -41px;
+  margin-top: -34px;
+}
+
+.muevete p {
+  font-family: "Futura Std";
+  font-weight: bolder;
+  font-size: 25px;
+  display: inline-block;
+  text-align: left;
+}
+
+.muevete {
+  justify-content: center;
+  margin-top: -93px;
+  margin-left: 150px;
+}
+
+.move {
+  display: flex;
+  flex-direction: column;
+}
+.white {
+  color: white;
+}
+
+.yellow {
+  color:  #f7c70b;
+}
+
+.btnElectro {
+  font-family: "Futura Std";
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.btnElectro p {
+    color: #f7c70b;
+      border: 1px solid #f7c70b;
+      padding: 10px 15px;
+}

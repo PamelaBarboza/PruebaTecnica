@@ -1,0 +1,33 @@
+.containerSection {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.containerSection svg {
+    width: 45%;
+    justify-content: flex-end;
+}
+
+.containerSection div {
+        justify-content: center;
+        margin-left: 20px;
+}
+
+.containerSection div svg :nth-child(1) {
+    margin-left: 40px;
+}
+
+.containerSection p {
+    font-size: 12px;
+    margin-left: -5px;
+    margin-top: -10px;
+}
+
+.botonNaranja {
+    background-color: #c59c12;
+}
+
+.botonNaranja {
+    background-color: #f7c70b;
+}
