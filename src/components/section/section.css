@@ -1,7 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+
 .containerSection {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    height: 82px;
+    margin-top: 7px;
 }
 
 .containerSection svg {
@@ -11,23 +15,65 @@
 
 .containerSection div {
         justify-content: center;
-        margin-left: 20px;
-}
-
-.containerSection div svg :nth-child(1) {
-    margin-left: 40px;
 }
 
 .containerSection p {
     font-size: 12px;
-    margin-left: -5px;
-    margin-top: -10px;
+    color: white;
+    font-family: "Futura Std";
+    font-weight: bold;
 }
 
-.botonNaranja {
+.btnMostaza {
     background-color: #c59c12;
+    height: 100%;
 }
 
-.botonNaranja {
+.btnYellow {
     background-color: #f7c70b;
+    height: 100%;
+}
+
+.containerSection div p, .containerSection div svg {
+    margin-left: 12px;
+}
+
+.margenException {
+    margin-top: -5px;
+}
+
+
+
+.containerSection div:active {
+    box-shadow: 4px 2px 5px 1px rgb(51, 51, 51);
+}
+
+.containerSection p:hover {
+    color: #3f293f;
+
+}
+.transporte{
+    display: flex;
+    flex-direction: column;
+}
+
+.transporteEficiente img{
+    width: 80%;
+}
+
+
+.transporteEficiente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textTrans p{
+    justify-content: center;
+    text-align: center;
+    font-family: "futura std";
+}
+
+.transporteScooter img{
+ width: 100%;
 }
