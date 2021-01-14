@@ -1,7 +1,10 @@
 import React from "react";
 import "../../components/section/section.css";
+import "../../components/sectionRow/sectionRow.css";
 import llamado from "../../img/llamado-1-mb@2x.png";
 import scooter from "../../img/scooter-title-mb@2x.png";
+
+import SectionRow from "../sectionRow/SectionRow";
 
 const Section = () => {
   return (
@@ -78,6 +81,7 @@ const Section = () => {
         </div>
       </div>
       <br />
+      <SectionRow />
       <div className="transporteEficiente">
         <img src={llamado} alt="" />
       </div>
@@ -90,12 +94,13 @@ const Section = () => {
           </strong>
         </p>
       </div>
-      <br/>
+      <br />
       <div className="transporteScooter">
         <img src={scooter} alt="" />
       </div>
     </div>
   );
+  
 };
 
 export default Section;

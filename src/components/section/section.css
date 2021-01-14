@@ -1,4 +1,6 @@
 @import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+@import url(//db.onlinewebfonts.com/c/25bd082d1c1c64616c5ee3179eb08b42?family=Futura+Std+Book);
+
 
 .containerSection {
     display: flex;
@@ -20,8 +22,8 @@
 .containerSection p {
     font-size: 12px;
     color: white;
-    font-family: "Futura Std";
-    font-weight: bold;
+    font-family: "Futura Std book";
+
 }
 
 .btnMostaza {
@@ -36,6 +38,7 @@
 
 .containerSection div p, .containerSection div svg {
     margin-left: 12px;
+    
 }
 
 .margenException {
@@ -80,5 +83,53 @@
 }
 
 @media (min-width: 1024px){
-    
+
+  .containerSection {
+    justify-content: flex-end;
+    height: 125px;
+    margin-top: 85px;
+    margin-right: 89px;
 }
+
+  .containerSection div{
+    width: 160px;
+  }
+
+  .containerSection svg{
+      margin-top: 25px;
+  }
+
+  .containerSection div p, .containerSection div svg {
+    margin-left: 43px;
+}
+
+
+.transporteEficiente img{
+    width: 50%;
+}
+
+
+.transporteEficiente{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.textTrans p{
+    justify-content: center;
+    text-align: center;
+    font-family: "futura std";
+}
+
+
+
+}
+
+/* @media (min-width: 1200px){
+.containerSection {
+
+    margin-top: 300px;
+    margin-right: 89px;
+}
+} */
+

@@ -25,5 +25,12 @@ h4{
 }
 
 @media (min-width: 1024px){
-    
+    h2{
+        font-size: 50px;
+}
+
+h4{
+text-align: center;
+color: black;
+}
 }

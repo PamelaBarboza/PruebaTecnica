@@ -1,0 +1,123 @@
+@import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+@import url(//db.onlinewebfonts.com/c/25bd082d1c1c64616c5ee3179eb08b42?family=Futura+Std+Book);
+
+
+
+.transporteRow{
+    display: none;
+}
+
+.transporteEficiente{
+    display: block;
+        width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.textTransDesk{
+    display: none;
+}
+
+.transporteScooterDesk{
+    display: none;
+}
+
+.transportScooterContainer{
+    display: none;
+}
+
+.transporteScooter img{
+    display: block;
+}
+
+.containerTransDesk{
+    display: none;
+}
+@media (min-width: 1024px){
+    .transporteRow{
+    display: block;
+    justify-content: center;
+      }
+
+   .transporteRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.transporteEficienteDesk{
+    display: block;
+}
+
+.transporteEficienteDesk img{
+    width: 80%;
+}
+.transporteEficiente{
+    display: none;
+}
+.textTransDesk{
+    display: block;
+}
+
+.transporteScooterDesk{
+    display: block;
+    
+}
+
+.transporteScooterDesk img{
+    width: 30%;
+}
+
+.textTrans{
+    display: none;
+}
+
+.transporteScooter{
+    display: none;
+}
+
+.transportScooterContainer{
+    display: block;
+    flex-direction: row;
+}
+
+.containerTransDesk{
+    flex-direction: row;
+    display: block;
+    margin-left: 85px;
+    margin-top: 427px;
+}
+
+.textTransDesk{
+    display: block;
+    font-family: "futura std";
+    text-align: right 
+}
+
+.transporteScooter{
+    display: none;
+}
+
+}
+
+/* @media (min-width: 1200px){
+
+.textTransDesk p{
+    font-size: 26px;
+}
+}
+
+ @media (min-width: 1200px){
+.containerTransDesk {
+    flex-direction: row;
+    display: block;
+    margin-left: 85px;
+    margin-top: 262px;
+}
+
+.transporteScooterDesk img {
+    width: 29%;
+    margin-top: 200px;
+}
+}  */
