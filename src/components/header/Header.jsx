@@ -1,5 +1,6 @@
 import React from "react";
 import ChicaHead from "../../img/chica-head-mb@2x.png";
+import ChicaHeadDesk from "../../img/chica-head-desktop@2x.png";
 import "../../components/header/header.css";
 
 const Header = () => {
@@ -8,6 +9,9 @@ const Header = () => {
       <div className="containerChicaLogo">
         <div className="imgChica">
           <img src={ChicaHead} alt="" />
+        </div>
+        <div className="imgChicaDesk">
+          <img src={ChicaHeadDesk} alt="" />
         </div>
         <div className="logoElectroMov">
           <svg

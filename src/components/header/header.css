@@ -1,4 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+@import url(//db.onlinewebfonts.com/c/25bd082d1c1c64616c5ee3179eb08b42?family=Futura+Std+Book);
 
 .containerChicaLogo {
   box-sizing: border-box;
@@ -23,7 +24,7 @@
 }
 
 .muevete p {
-  font-family: "Futura Std";
+  font-family: "Futura Std book";
   font-weight: bolder;
   font-size: 25px;
   display: inline-block;
@@ -32,7 +33,7 @@
 
 .muevete {
   justify-content: center;
-  margin-top: -93px;
+  margin-top: -103px;
   margin-left: 150px;
 }
 
@@ -45,20 +46,62 @@
 }
 
 .yellow {
+  font-style: italic;
   color:  #f7c70b;
 }
 
 .btnElectro {
-  font-family: "Futura Std";
+  font-family: "Futura Std book";
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 13px;
 
 }
+.imgChicaDesk{
+  display: none;
+}
+
 
 .btnElectro p {
     color: #f7c70b;
-      border: 1px solid #f7c70b;
-      padding: 10px 15px;
+      border: 3px solid #f7c70b;
+      padding: 7px 12px;
+}
+
+@media (min-width: 1024px) {
+  
+.imgChicaDesk, .imgChicaDesk img{
+  display: block;
+    box-sizing: border-box;
+
+}
+
+.imgChicaDesk img{
+        width: 69%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgChica, .imgChica img{
+  display: none;
+}
+
+
+.logoElectroMov svg {
+  width: 700px;
+    margin-left: -374px;
+    margin-top: 35px;
+ }
+
+ .muevete {
+  justify-content: center;
+  margin-left: 600px;
+
+}
+.muevete p{
+margin-top: -650px;
+font-size: 40px;
+}
+
 }

@@ -9,3 +9,21 @@
   box-sizing: border-box;
   width: 100%;
 }
+
+.containerImgHeadDesk{
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  
+.containerImgHeadDesk, .containerImgHeadDesk img{
+  display: block;
+    box-sizing: border-box;
+  width: 100%;
+}
+.containerImgHead, .containerImgHead img{
+  display: none;
+}
+
+
+}

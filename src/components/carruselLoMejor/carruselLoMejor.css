@@ -1,0 +1,29 @@
+@import url(//db.onlinewebfonts.com/c/25bd082d1c1c64616c5ee3179eb08b42?family=Futura+Std+Book);
+
+.loMejor{
+    display: flex;
+    justify-content: center;
+
+}
+
+.textLoMejor{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+        font-size: 26px;
+        text-align: center;
+        font-family: "futura std book";
+        color: #faca14
+}
+
+h4{
+    font-family: "futura std book";
+    color: #5b345a;
+    font-size: 20px;
+}
+
+@media (min-width: 1024px){
+    
+}

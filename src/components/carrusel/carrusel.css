@@ -1,0 +1,53 @@
+@import "react-slideshow-image/dist/styles.css";
+@import url(//db.onlinewebfonts.com/c/921351f146d78d55c8030239527bf2d6?family=Futura+Std);
+@import url(//db.onlinewebfonts.com/c/25bd082d1c1c64616c5ee3179eb08b42?family=Futura+Std+Book);
+
+.each-slide div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size:auto;
+  margin-top: -119px;
+
+}
+
+.images-wrap img{
+    width: 360px !important;
+
+}
+
+.desktop{
+  display: none;
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "futura std book";
+  font-weight: bolder;
+}
+
+.violeta{
+  color:  #5b345a;
+}
+
+.btn-violeta{
+  color:  #5b345a;
+        border: 3px solid #5b345a;
+      padding: 10px 15px;
+
+}
+
+@media (min-width: 1024px) {
+  
+.desktop{
+  display: block;
+}
+
+.mobile{
+  display: none;
+}
+}
+
